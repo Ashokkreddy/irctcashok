@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    position: fixed;
+    width: 100%; 
+}
+.row .col{
+width:100%;
+background: white;
+}
+.card {   
+    text-align: center;
+}
+.card-header a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 2px;   
+}
+.ul1{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none; 
+    padding: 10px 60px;
+    height: 30px;
+    margin-left: 250px;
+}
+.ul2{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-align: center;
+    padding: 20px 60px;
+    height: 60px;
+    margin-left: 200px;  
+}
+.login{
+    background: blue;  
+}
+.trains{
+    text-decoration: underline;
+    color: red;
+}
+.ul2 .fa-solid {
+    color: hotpink;
+}
+.circle1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 55px;
+    top:20px;
+}
+.circle2 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 55px;
+    top: 20px;
+}
+.banner{
+    background: url("../images/rail3.jpeg") no-repeat;
+    height: 900px;
+    background-size: 100% 100%;
+}
+.banner1{
+    display: flex; 
+}
+.banner2{
+    width: 50%;   
+}
+.bannercontent{
+    padding: 100px 60px;
+    margin-left: 100px;
+    color: blue;
+}
+.bannercontent h1{
+    font-size: 50px;
+}
+.bannercontent p{
+    padding: 30px 70px;
+    font-size: 30px;
+}
+.bannerbox{
+    margin-top:0px;
+    margin-left: 30px;
+    height: 500px;
+    border: 2px solid white;
+    background: white;
+}
+.bannerbox1{
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 100px;
+    border: 2px solid white;
+    background: white;
+}
+.bannerbutton{ 
+    margin-left: 30px;
+    margin-top: 120px;
+    height: 25px;
+    border: 2px solid black;    
+}
+.bannerbutton{
+    background: blue;   
+}
+.bannerbutton2{
+    width: 335px;
+    margin-right: 29px;
+    border: none;
+}
+.bannerbutton3{
+   width: 335px;
+   border: none;    
+}
+.emogis{
+    display: flex;
+    justify-content: space-between;
+}
+.emogis p{
+    font-size: 80px;
+}
+.emogis h1{
+    margin-top: 10px;
+}
+.textbox input{
+    height: 45px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#dropdown3{
+    height: 45px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.textbox a{
+   margin-left: 160px;
+}
+.textbox i{
+    font-size: 20px;
+}
+.checkboxs{
+    height: 25px;
+    margin: 30px;
+    font-size: 20px;
+    padding: 0px;
+}
+.checkboxs1{
+    margin-bottom: 20px;
+}
+.flex{
+    margin-left: 20px;
+}
+.checkbuttons1{
+    justify-content: space-between;
+    color: white;
+    background: orange;
+    margin-top: 35px;
+    height: 30px;
+    width: 100px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.checkbuttons2{
+    justify-content: space-between;
+    color: white;
+    background: orange;
+    margin-top: 35px;
+    height: 30px;
+    width: 300px;
+    margin-left: 250px;
+    border-radius: 5px;
+}
+.p1{
+    color: red;
+}
+.p2{
+    color:violet;
+}
+.hr{
+    background: 2px solid violet;
+    margin-top: 20px;
+}
+.have{
+    text-align: center;
+    margin:20px 0px;
+}
+#news .ashok{
+    display: flex;
+    flex-wrap: wrap;  
+}
+#news .ashokk{
+    width: 20%;
+}
+#news .reddy{
+background: white;
+}
+#news .ashokkr{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgb(118, 116, 116);
+    margin-left: 100px;
+}
+.circlesicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+  .icon {
+    width: 50px; 
+    height: 50px; 
+    background-color: hotpink;
+    border-radius: 50%;
+    margin: 0 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black; 
+    font-size: 24px; 
+  }
+  .circlesiconsname {
+    text-align: center;
+    font-size: 16px; /* Adjust the name font size */
+  }
+  .circlesicons1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin-top: 50px;
+  }
+  .centerimg{
+    margin-top: 50px;
+    margin-left: 225px;
+  }
+  .video {
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 550px;
+    margin-top: 30px;
+  }
+  .videobody {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .have1{
+    text-align: center;
+    margin:50px;
+}
+#sud .sudheer{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#sud .sudheerreddy{
+    width: 33.33%;
+}
+#sud .riyanshi{
+background: white;
+padding: 30px 25px;
+}
+#sud .sunitha{
+    margin: 10px 15px;
+    box-shadow: 0 0 10px rgb(118, 116, 116);
+}
+#sud{
+    margin: 60px 0px;
+}
+#sud img{
+    width: 100%;
+    height: 250px;
+    
+}
+#sud h3{
+    color: black;
+    margin-bottom: 10px;
+}
+#sud p{
+    color: rgba(0, 0, 0, 0.6);
+}
+#sud .parent{
+    overflow: hidden;
+}
+.boxcolors{
+    background-image: linear-gradient(to right,red, yellow,pink);
+    height: 50px;
+}
+.boxcolors1{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+.boxcolors1 .icon {
+    width: 50px; 
+    height: 50px; 
+    background-color: hotpink;
+    border-radius: 50%;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black; 
+    font-size: 24px; 
+  }
+  .boxcolors1 h1{
+    color: white;
+ }
+ .footerbox{
+    height: 300px;
+    width: 100%;
+    border: 2px soild blue;
+    background: violet;
+    margin-top: 40px;
+ }
+ .footer1{
+    display: flex;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+ .footer1 ul{
+   margin-left: 50px;
+    list-style-type: none;
+    padding: 50px;
+    
+ }
+ .footer1 ul li{
+    padding-bottom: 30px;
+ }
+
+
+
+
+
+
+
+
+
+
